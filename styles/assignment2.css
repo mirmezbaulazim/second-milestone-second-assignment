@@ -1,6 +1,6 @@
 /* Font  */
 body{
-    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
     
 }
 /* Header Section  */
@@ -89,9 +89,12 @@ top: 200px;
     gap: 25px;}
 /* Main Section 02  */
 .banner3{
+    margin-top: 60px;
 width: 450px;
 padding: 0 100px;
 }
+
+.subtitel{margin-bottom: 35px;}
 .image2{
     position: absolute;
 width: 450px;
@@ -99,3 +102,20 @@ height: 650px;
 left: 690px;
 top: 1800px;
 }
+
+.btn-primary2{
+    position: relative;
+    left: 450px;
+    bottom: 100px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 120px;
+    border-radius: 15px;
+    background: #FD6E0A;}
+    .btn-size{
+        display: flex;
+        font-size: 30px;
+    }
