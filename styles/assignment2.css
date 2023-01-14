@@ -1,0 +1,101 @@
+/* Font  */
+body{
+    /* font-family: 'Work Sans', sans-serif; */
+    
+}
+/* Header Section  */
+.herder{
+    background: rgba(255, 144, 14, 0.1);
+    height: 950px;  
+}
+/* Nav Bar Style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
+    height: 80px;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 25px;
+}
+/* Banner Style  */
+.banner {
+    text-align: center;
+    margin: 0 200px;
+}
+.banner-titel {
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;}
+/* Image section 01  */
+.image{
+    /* width: 830px; */
+    position: relative;
+    top: 25px;
+    width: 100%;
+    max-width: 1250px;
+}
+/* Button Section  */
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 15px;
+    background: #FD6E0A;
+}
+/* Main Section 01  */
+main{
+    padding: 0 100px;
+}
+.banner2{
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+    padding: 0 100px;
+}
+.text2{
+    width: 200px;
+}
+.banner2-text{
+    position: relative;
+top: 200px;
+}
+.orenge{
+    color: #FF900E;
+}
+.var{
+    color: #727272;
+}
+.text2-description{
+    color: #727272;
+}
+/* Image section 02  */
+.photo-gallary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;}
+/* Main Section 02  */
+.banner3{
+width: 450px;
+padding: 0 100px;
+}
+.image2{
+    position: absolute;
+width: 450px;
+height: 650px;
+left: 690px;
+top: 1800px;
+}
