@@ -241,6 +241,8 @@ main {
 
 .team{
     margin-top: 100px;
+    border-bottom: solid 3px #c9c4c4;
+    padding: 50px 0px;
 }
 .team-titel{
     text-align: center;
@@ -250,6 +252,9 @@ main {
 .team-name{
     color: #727272;
     padding: 20px;
+}
+.team-name:hover{
+    color: black;
 }
 .palyers{
 display: grid;
@@ -270,7 +275,7 @@ grid-template-columns: repeat(3, 1fr);
 /* Our Sponspors  */
 
 .Sponspors{
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
 }
 .Sponspors-titel{
