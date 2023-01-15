@@ -149,6 +149,7 @@ main {
 .main-banner2-titel {
     border-left: 5px solid #FF900E;
     font-size: 45px;
+    padding-left: 30px;
 }
 
 .image2 {
@@ -234,6 +235,36 @@ main {
 
 .box-image {
     margin-left: 60px;
+}
+
+/* Our Team  */
+
+.team{
+    margin-top: 100px;
+}
+.team-titel{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+.team-name{
+    color: #727272;
+    padding: 20px;
+}
+.palyers{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+}
+.palyer{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+.palyer img{
+    width: 56px;
+    height: 56px;
 }
 
 /* Our Sponspors  */
