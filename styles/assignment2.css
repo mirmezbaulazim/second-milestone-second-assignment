@@ -1,17 +1,20 @@
 /* Font  */
 body{
-    font-family: 'Work Sans', sans-serif;
-    
+    font-family: 'Work Sans', sans-serif; 
 }
+
 /* Header Section  */
+
 .herder{
     background: rgba(255, 144, 14, 0.1);
     height: 950px;  
 }
+
 /* Nav Bar Style  */
+
 nav{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     width: 100%;
     max-width: 1250px;
@@ -21,32 +24,44 @@ nav{
 nav ul {
     display: flex;
     list-style: none;
-    align-items: center;
+    /* align-items: center; */
     gap: 25px;
 }
-/* Banner Style  */
-.banner {
+.nav-bar1:hover{
+    color: #FD6E0A;
+}
+.nav-bar2:hover{
+    color: #FD6E0A;
+}
+.nav-bar3:hover{
+    color: #FD6E0A;
+}
+.nav-bar4:hover{
+    color: #FD6E0A;
+}
+.nav-bar5:hover{
+    color: #FD6E0A;
+}
+
+/* Hader Start Banner  */
+
+.start-banner {
     text-align: center;
     margin: 0 200px;
 }
-.banner-titel {
+.start-banner-titel{
     font-weight: 700;
     font-size: 64px;
 }
-.banner-description{
+.start-banner-description{
     color: #757575;
     font-size: 16px;
-    margin-bottom: 30px;}
-/* Image section 01  */
-.image{
-    /* width: 830px; */
-    position: relative;
-    top: 25px;
-    width: 100%;
-    max-width: 1250px;
+    margin-bottom: 30px;
 }
-/* Button Section  */
-.btn-primary {
+
+/* Hader Start Banner Button */
+
+.btn-primary1{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -56,22 +71,48 @@ nav ul {
     border-radius: 15px;
     background: #FD6E0A;
 }
+.btn-primary1:hover{
+    border: solid 3px #FD6E0A;
+    background-color: wheat;
+    color: black;
+}
+
+/*Hader Start Banner Image*/
+
+.start-banner-image{
+    /* width: 830px; */
+    position: relative;
+    top: 25px;
+    width: 100%;
+    max-width: 1250px;
+}
+
 /* Main Section 01  */
 main{
-    padding: 0 100px;
+    padding: 0 70px;
 }
-.banner2{
+
+/* Main Section 01 Image  */
+
+.main-photo-gallary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+/* Main Section 01 Banner 01  */
+.main-banner1{
     margin-top: 70px;
     display: flex;
     gap: 50px;
-    padding: 0 100px;
+    padding: 0 80px;
+}
+.main-banner1-text{
+    position: relative;
+top: 200px;
 }
 .text2{
     width: 200px;
-}
-.banner2-text{
-    position: relative;
-top: 200px;
 }
 .orenge{
     color: #FF900E;
@@ -79,22 +120,22 @@ top: 200px;
 .var{
     color: #727272;
 }
-.text2-description{
+.main-banner1-description{
     color: #727272;
 }
-/* Image section 02  */
-.photo-gallary{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;}
-/* Main Section 02  */
-.banner3{
+
+/* Main Second Banner  */
+
+.main-banner2{
     margin-top: 60px;
 width: 450px;
 padding: 0 100px;
 }
+.main-banner2-titel{
+    border-left:5px solid #FF900E ;
+font-size: 45px;
+}
 
-.subtitel{margin-bottom: 35px;}
 .image2{
     position: absolute;
 width: 450px;
@@ -106,7 +147,7 @@ top: 1800px;
 .btn-primary2{
     position: relative;
     left: 450px;
-    bottom: 90px;
+    bottom: 130px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -119,7 +160,14 @@ top: 1800px;
         display: flex;
         font-size: 30px;
     }
+    .btn-primary2:hover{
+        border: solid 3px #FD6E0A;
+        background-color: wheat;
+        color: black; 
+    }
+
     /* Some Facts Section  */
+    
     .Facts-titel{
         margin-left: 40px;
         font-weight: 700;
