@@ -297,6 +297,12 @@ grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin-left: 100px;
 }
+.Sponspors img{
+    filter: grayscale(100%);
+}
+.image-container img:hover{
+    filter: grayscale(0%); 
+}
 
 /* Footer Section  */
 footer{
