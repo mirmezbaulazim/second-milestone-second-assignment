@@ -106,7 +106,7 @@ top: 1800px;
 .btn-primary2{
     position: relative;
     left: 450px;
-    bottom: 100px;
+    bottom: 90px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -119,3 +119,45 @@ top: 1800px;
         display: flex;
         font-size: 30px;
     }
+    /* Some Facts Section  */
+    .Facts-titel{
+        margin-left: 40px;
+        font-weight: 700;
+font-size: 45px;
+    }
+    .Facts-description{
+        margin-left: 40px;
+        margin-bottom: 60px;
+        width: 430px;
+font-size: 16px;
+color: #727272;
+    }
+    .container{
+        display: flex;
+        gap: 100px;
+        margin-left: 60px;
+        width: 450px;
+    }
+.box{
+    display: grid;
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+width: 400px;
+border: solid #FD6E0A;
+padding: 30px 30px;
+}
+.box:hover{
+    background-color: #FD6E0A;
+}
+.box-text{
+    text-align: center;
+}
+.box-description{
+    text-align: center;
+    font-size: 20px;  
+}
+.box-image{
+    margin-left: 20px;
+    
+}
